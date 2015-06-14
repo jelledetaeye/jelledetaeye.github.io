@@ -1,42 +1,49 @@
 body {
-padding-top: 70px;
-padding-bottom: 30px;
-}
-
-.theme-dropdown .dropdown-menu {
-position: static;
-display: block;
-margin-bottom: 20px;
+	padding-top: 70px;
+	padding-bottom: 30px;
 }
 
 .starter-template {
-padding: 40px 15px;
-text-align: center;
+	padding: 40px 15px;
+	text-align: center;
 }
 
-.theme-showcase > p > .btn {
-margin: 5px 0;
-}
+.theme-showcase {
+	.dropdown-menu {
+		position: static;
+		display: block;
+		margin-bottom: 20px;
+	}
 
-.theme-showcase .navbar .container {
-width: auto;
-}
+	> p > .btn {
+		margin: 5px 0;
+	}
 
-.theme-showcase > .jumbotron {
-	background-image: url("../res/ny.jpg");
-	background-size: 100%;
-	background-position: center; 
-	background-repeat: no-repeat;
-	color: white;
-}
+	.navbar .container {
+		width: auto;
+	}
+	.social img,  .profile-picture img {
+		width: 125px;
+		height: 125px;
+	}
 
-.theme-showcase .row img {
-width: 125px;
-height: 125px;
-}
+	> .jumbotron {
+		background-image: url("../res/ny.jpg");
+		background-size: 100%;
+		background-position: center; 
+		background-repeat: no-repeat;
+		color: white;
+	}
 
-.theme-showcase .row img.opacity3 {
-	opacity: .3;
+	.row img.opacity3 {
+		opacity: .3;
+	}
+
+	p {
+		a:active, a:hover, a:visited, a:link {
+			text-decoration: none;
+		}
+	}
 }
 
 footer {
