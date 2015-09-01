@@ -52,10 +52,11 @@ less = {
 		<div id="navbar" class="collapse navbar-collapse">
 		<ul class="nav navbar-nav">
 			<li class="active"><a href="#">Home</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#projects">Projects</a></li>
-			<li><a href="#contact">Contact</a></li>
-			<li><a href="#races">Races</a></li>
+			<li><a href="#aboutSection">About</a></li>
+			<li><a href="#blogSection">Blog</a></li>
+			<li><a href="#projectsSection">Projects</a></li>
+			<li><a href="#socialSection">Contact</a></li>
+			<li><a href="#raceResultsSection">Races</a></li>
         </ul>
 		</div><!--/.nav-collapse -->
 	</div>
@@ -63,20 +64,16 @@ less = {
 
 	<div class="container theme-showcase">
 
-		<div class="jumbotron">
-			<h1>&nbsp;</h1>
-			<p> &nbsp;</p>
-		</div>
-
 		<div class="starter-template">
 			<h1>Software Engineer by day, superhero by night</h1>
 			<p class="lead">...sometimes I swim, bike and run.. for fun!</p>
 		</div>
 
-		<div id="aboutSection" ></div>
-		<div id="projectsSection" ></div>
-		<div id="socialSection" ></div>
-		<div id="raceResultsSection" ></div>
+		<div id="aboutSection" class="section"></div>
+		<div id="blogSection" class="section"></div>
+		<div id="projectsSection" class="section"></div>
+		<div id="socialSection" class="section"></div>
+		<div id="raceResultsSection" class="section"></div>
 
 	</div><!-- /.container -->
 
@@ -99,6 +96,7 @@ less = {
 	$(document).on("ready", function() {
 		app.loadContent();
 		app.setListeners();
+		app.retrieveMedium();
 	});
 	</script>
 </body>

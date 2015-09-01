@@ -11,9 +11,10 @@ var app = {
 	},
 
 	loadContent: function() {
-		$("#aboutSection").load("about.html"); 
-		$("#projectsSection").load("projects.html"); 
-		$("#socialSection").load("social.html"); 
+		$("#aboutSection").load("about.html");
+		$("#blogSection").load("blog.html");
+		$("#projectsSection").load("projects.html");
+		$("#socialSection").load("social.html");
 		$("#raceResultsSection").load("race-results.html");
 	}
 };
