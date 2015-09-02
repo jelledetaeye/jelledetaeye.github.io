@@ -8,13 +8,5 @@ var app = {
 		$("footer button").on('click', function() {
 			$(window).scrollTop(0);
 		});
-	},
-
-	loadContent: function() {
-		$("#aboutSection").load("about.html");
-		$("#blogSection").load("blog.html");
-		$("#projectsSection").load("projects.html");
-		$("#socialSection").load("social.html");
-		$("#raceResultsSection").load("race-results.html");
 	}
 };
