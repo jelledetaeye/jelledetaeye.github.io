@@ -8,10 +8,11 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	<meta name="author" content="Jelle DeTaeye">
 
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="icon" href="res/favicon.ico">
+
 	<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	<link rel="icon" href="res/favicon.ico">
 	<!-- Bootstrap core CSS -->
 	<link href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
 	<!-- Bootstrap theme -->
