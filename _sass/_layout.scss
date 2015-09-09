@@ -89,6 +89,7 @@
  * Page content
  */
 .page-content {
+    margin-top: $spacing-unit;
     padding: $spacing-unit 0;
 }
 
@@ -97,7 +98,7 @@
 }
 
 .post-list {
-    margin-left: 0;
+    margin-left: 20px;
     list-style: none;
 
     > li {
@@ -121,6 +122,7 @@
  * Posts
  */
 .post-header {
+    margin-top: $spacing-unit;
     margin-bottom: $spacing-unit;
 }
 
