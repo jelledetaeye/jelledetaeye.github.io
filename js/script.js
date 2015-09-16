@@ -1,10 +1,12 @@
 var app = {
 	loadContent: function() {
-		$("#aboutSection").load("_includes/about.html");
-		$("#blogSection").load("_includes/publications.html");
-		$("#projectsSection").load("_includes/projects.html");
-		$("#socialSection").load("_includes/social.html");
-		$("#raceResultsSection").load("_includes/race-results.html");
+		$("#headerSection").load("includes/header.html");				
+		$("#footerSection").load("includes/footer.html");
+		$("#aboutSection").load("includes/about.html");
+		$("#blogSection").load("includes/publications.html");
+		$("#projectsSection").load("includes/projects.html");
+		$("#socialSection").load("includes/social.html");
+		$("#raceResultsSection").load("includes/race-results.html");
 	},
 
 	setListeners: function() {
