@@ -1,0 +1,44 @@
+.starter-template {
+  padding: 80px 15px 0px 15px;
+  text-align: center; }
+
+.theme-showcase .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px; }
+.theme-showcase .section {
+  padding-top: 25px; }
+.theme-showcase > p > .btn {
+  margin: 5px 0; }
+.theme-showcase .navbar .container {
+  width: auto; }
+.theme-showcase .social img, .theme-showcase .profile-picture img {
+  width: 125px;
+  height: 125px; }
+.theme-showcase .row img.opacity3 {
+  opacity: .3; }
+.theme-showcase p a:active, .theme-showcase p a:hover, .theme-showcase p a:visited, .theme-showcase p a:link {
+  text-decoration: none; }
+
+footer {
+  text-align: center; }
+  footer p.end {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px; }
+
+/**
+ * Icons
+ */
+.icon > svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle; }
+  .icon > svg path {
+    fill: #828282; }
+
+.social-media-list {
+  list-style: none;
+  margin-left: 0; }
+
+/*# sourceMappingURL=main.css.map */

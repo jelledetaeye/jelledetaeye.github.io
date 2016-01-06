@@ -1,3 +1,7 @@
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
 .starter-template {
 	padding: 80px 15px 0px 15px;
 	text-align: center;
@@ -21,7 +25,7 @@
 	.navbar .container {
 		width: auto;
 	}
-	
+
 	.social img,  .profile-picture img {
 		width: 125px;
 		height: 125px;
@@ -45,4 +49,26 @@ footer {
 		font-family: 'Kaushan Script', cursive;
 		font-size: 20px;
 	}
+}
+
+/**
+ * Icons
+ */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}
+
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
 }
