@@ -1,3 +1,6 @@
+@media all and (max-width: 650px) {
+  .raceResultsContent {
+    display: none; } }
 .starter-template {
   padding: 80px 15px 0px 15px;
   text-align: center; }

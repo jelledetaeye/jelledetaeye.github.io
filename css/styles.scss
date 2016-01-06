@@ -2,6 +2,12 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+@media all and (max-width: 650px) {
+    .raceResultsContent {
+      display:none;
+    }
+}
+
 .starter-template {
 	padding: 80px 15px 0px 15px;
 	text-align: center;
