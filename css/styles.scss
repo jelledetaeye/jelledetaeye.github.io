@@ -32,10 +32,15 @@ $grey-color-dark:  darken($grey-color, 25%);
 		width: auto;
 	}
 
-	.social img,  .profile-picture img {
+	.social img {
 		width: 125px;
 		height: 125px;
 	}
+
+  .profile-picture img {
+    width: 250px;
+    height: 250px;
+  }
 
 	.row img.opacity3 {
 		opacity: .3;

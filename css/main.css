@@ -15,9 +15,12 @@
   margin: 5px 0; }
 .theme-showcase .navbar .container {
   width: auto; }
-.theme-showcase .social img, .theme-showcase .profile-picture img {
+.theme-showcase .social img {
   width: 125px;
   height: 125px; }
+.theme-showcase .profile-picture img {
+  width: 250px;
+  height: 250px; }
 .theme-showcase .row img.opacity3 {
   opacity: .3; }
 .theme-showcase p a:active, .theme-showcase p a:hover, .theme-showcase p a:visited, .theme-showcase p a:link {
