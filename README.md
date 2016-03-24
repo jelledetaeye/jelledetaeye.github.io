@@ -1,5 +1,6 @@
 #Personal Site
 
 ## TO DO list:
-1. Replace Jekyll with Handlebars.js
-1. Clean up SASS files
+1. Clean up SASS fileis
+1. Include Strava profile
+1. Style profile picture
