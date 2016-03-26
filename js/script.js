@@ -14,14 +14,7 @@ var app = {
       });
     });
 		$("#aboutSection").load("includes/about.html");
-		$("#blogSection").load("includes/publications.html");
-		$("#projectsSection").load("includes/projects.html");
 		$("#socialSection").load("includes/social.html");
-		$("#raceResultsSection").load("includes/race-results.html", function (){
-      //Set Listener
-      $("#raceResultsBtn").on('click', function() {
-        $(".raceResultsContent").toggle();
-      });
-    });
+		// $("#raceResultsSection").load("includes/race-results.html");
 	}
 };
