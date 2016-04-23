@@ -1,0 +1,143 @@
+html {
+	background: #f7f7f7 url('../res/headshot.jpg') no-repeat bottom right fixed;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+
+}
+
+body {
+	font-family: "SF UI Display", Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	font-size: 14pt;
+	letter-spacing: .025em;
+	margin: 13% 5%;
+	padding-bottom: 3em;
+
+}
+
+p, a, li, h1, h2 {
+	width: 50%;
+	max-width: 500px;
+}
+
+p {
+	margin: 1em 0;
+	line-height: 1.4em;
+}
+
+a, a:hover, a:visited, a:active {
+	color: black;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #fff700;
+}
+
+li {
+	line-height: 1.4em;
+	margin-top: .5em;
+}
+
+h1 {
+	font-size: 20pt;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 11pt;
+	letter-spacing: .1em;
+	margin: 3em 0 1em;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+ul {
+	font-size: 10pt;
+}
+
+.description, .publisher {
+	font-style: italic;
+	font-weight: 200;
+}
+
+.publisher {
+	display: block;
+}
+
+#years {
+	text-transform: capitalize;
+}
+/*
+#projects, #social, #press {
+	display: none;
+}
+*/
+
+@media only screen
+	and (max-width: 1000px) {
+
+		html {
+			background: #f7f7f7;
+		}
+
+		body {
+			padding-top: 20px;
+			margin: 0 5%;
+		}
+
+		p, a, li, h1, h2 {
+			width: 100%;
+			margin: 1em auto;
+		}
+
+		li {
+			margin: .5em auto 0;
+		}
+
+		h2 {
+			margin: 3em auto 1em;
+		}
+
+		h1:before {
+			background: #f7f7f7 url('../res/headshot-crop.jpg') top center no-repeat;
+			background-size: contain;
+			content: "";
+			display: block;
+			height: 350px;
+			margin-bottom: 40px;
+		}
+
+	}
+
+@media only screen
+  	and (min-device-width: 375px)
+  	and (max-device-width: 667px)
+  	and (-webkit-min-device-pixel-ratio: 2) {
+	  	body {
+			font-size: 28pt;
+		}
+
+		p, a, li, h1, h2 {
+			max-width: none;
+		}
+
+		h1 {
+			font-size: 40pt;
+		}
+
+		h2 {
+			font-size: 22pt;
+		}
+
+		ul {
+			font-size: 20pt;
+		}
+
+		h1:before {
+			height: 700px;
+		}
+  }
