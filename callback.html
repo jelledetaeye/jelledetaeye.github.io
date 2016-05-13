@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Redirect stuff</title>
+</head>
+<body>
+	<div id="container">hello world</div>
+	<script>
+	var query = window.location.search.substring(1);
+  	var vars = query.split("&");
+  	var code = vars[0];
+  	console.log("url is: " + code);
+	window.location.href = "http://localhost:4567/callback?" + code;
+	</script>
+</body>
+</html>
