@@ -4,7 +4,6 @@ html {
 	-moz-background-size: contain;
 	-o-background-size: contain;
 	background-size: contain;
-
 }
 
 body {
@@ -14,7 +13,6 @@ body {
 	letter-spacing: .025em;
 	margin: 13% 5%;
 	padding-bottom: 3em;
-
 }
 
 p, a, li, h1, h2 {
@@ -72,6 +70,15 @@ ul {
 	text-transform: capitalize;
 }
 
+.social img {
+	width: 75px;
+	height: 75px;
+}
+
+.social a:hover {
+	background-color: transparent;
+}
+
 @media only screen
 	and (max-width: 1000px) {
 
@@ -114,25 +121,25 @@ ul {
   	and (-webkit-min-device-pixel-ratio: 2) {
 	  	body {
 			font-size: 28pt;
-		}
+			}
 
-		p, a, li, h1, h2 {
-			max-width: none;
-		}
+			p, a, li, h1, h2 {
+				max-width: none;
+			}
 
-		h1 {
-			font-size: 40pt;
-		}
+			h1 {
+				font-size: 40pt;
+			}
 
-		h2 {
-			font-size: 22pt;
-		}
+			h2 {
+				font-size: 22pt;
+			}
 
-		ul {
-			font-size: 20pt;
-		}
+			ul {
+				font-size: 20pt;
+			}
 
-		h1:before {
-			height: 700px;
-		}
+			h1:before {
+				height: 700px;
+			}
   }
