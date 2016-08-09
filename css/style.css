@@ -91,7 +91,7 @@ ul {
 			margin: 0 5%;
 		}
 
-		p, a, li, h1, h2, .social {
+		p, a, li, h1, h2 {
 			width: 100%;
 			margin: 1em auto;
 		}
@@ -123,7 +123,7 @@ ul {
 			font-size: 28pt;
 			}
 
-			p, a, li, h1, h2, .social  {
+			p, a, li, h1, h2 {
 				max-width: none;
 			}
 
