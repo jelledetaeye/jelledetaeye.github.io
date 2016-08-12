@@ -80,7 +80,15 @@ ul {
 }
 
 @media only screen
-	and (max-width: 1000px) {
+	and (max-width: 1350px) {
+		p, a, li, h1, h2 {
+			width: 30%;
+			max-width: 500px;
+		}
+}
+
+@media only screen
+	and (max-width: 1200px) {
 
 		html {
 			background: #f7f7f7;
