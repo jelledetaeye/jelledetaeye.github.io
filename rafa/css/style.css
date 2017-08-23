@@ -192,14 +192,14 @@ form {
 		margin-top: 1em;
 	}
 	.grid h2, .grid h1 {
-		font-size: 1.5em;
+		font-size: 2em;
 		padding-top: 1em;
 		padding-bottom: 1em;
 	}
 	.grid h3 {
-		font-size: 1em;
-		padding-top: 1.5em;
-		padding-bottom: 3em;
+		font-size: 1.5em;
+		padding-top: 1em;
+		padding-bottom: 2em;
 	}
 	.footer p.a {
 		margin-top: 4em;
@@ -233,13 +233,13 @@ form {
 		margin-top: 0.3em;
 	}
 	.grid h2, .grid h1 {
-		font-size: 1.5em;
+		font-size: 2em;
 		padding-top: 1em;
 		padding-bottom: 1em;
 	}
 	.grid h3 {
-		font-size: 0.9em;
-		padding-top: 1.2em;
+		font-size: 1.5em;
+		padding-top: 1em;
 		padding-bottom: 1.7em;
 	}
 	.footer p {
@@ -261,14 +261,14 @@ form {
 		margin-top: 0em;
 	}	
 	.grid h2, .grid h1 {
-		font-size: 1.5em;
+		font-size: 2em;
 		padding-top: 1em;
 		padding-bottom: 1em;
 	}
 	.grid h3 {
-		font-size: 1em;
+		font-size: 1.5em;
 		padding-top: 1em;
-		padding-bottom: 1.4em;
+		padding-bottom: 1em;
 	}
 	.footer p {
 		margin-bottom: 1em;
