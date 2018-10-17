@@ -1,5 +1,5 @@
 html {
-	background: #f7f7f7 url('../res/profile-picture-3.png') no-repeat bottom right fixed;
+	background: #f7f7f7 url('../res/profile-picture-4.png') no-repeat bottom right fixed;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
 	-o-background-size: contain;
@@ -110,15 +110,6 @@ ul {
 
 		h2 {
 			margin: 3em auto 1em;
-		}
-
-		h1:before {
-			background: #f7f7f7 url('../res/profile-crop.png') top center no-repeat;
-			background-size: contain;
-			content: "";
-			display: block;
-			height: 350px;
-			margin-bottom: 40px;
 		}
 
 	}
