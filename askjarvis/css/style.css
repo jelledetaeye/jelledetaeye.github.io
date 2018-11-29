@@ -50,14 +50,22 @@ h1 {
 h2 {
     font-size: 2.5rem;
 }
- h3 {
+
+h3 {
     text-transform: uppercase;
- }
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
 
 .text-box {
     background: #00000073;
-    width: 40vw;
-    padding: 5vh;
+    /* width: 40vw; */
+    max-width: 650px;
+    /* padding: 5vh; */
+    padding: 5%;
 }
 
 .rcorners {
