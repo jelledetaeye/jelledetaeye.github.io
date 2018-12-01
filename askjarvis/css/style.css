@@ -87,3 +87,9 @@ h4 {
     margin-left: 0px !important;
     margin-right: 0px !important;
 }
+
+@media screen and (max-width: 850px) {
+    .page-height {
+        height: 80vh !important;
+    }
+}
